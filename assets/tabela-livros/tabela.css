@@ -1,0 +1,19 @@
+.lista-livros{
+    display: flex;
+    justify-content: center;
+    height: 40vh;
+    overflow-y: scroll;
+
+    & table, tr, td, th{
+        padding: 10px;
+    }
+
+    & td, th{
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+    }
+
+    & .fundoCinza{
+        background-color: rgb(222, 221, 221);
+    }
+}
